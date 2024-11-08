@@ -1,4 +1,4 @@
-from metrik.connectors.common.types import ConnectorTypes
+from metrikflow.connectors.common.types import ConnectorTypes
 from pydantic import BaseModel
 
 

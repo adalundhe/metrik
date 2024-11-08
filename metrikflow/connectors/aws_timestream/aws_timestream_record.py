@@ -2,7 +2,7 @@
 import time
 from typing import Union, Any
 from datetime import datetime
-from metrik.metrics.types import (
+from metrikflow.metrics.types import (
     Event,
     Interval,
     Rate

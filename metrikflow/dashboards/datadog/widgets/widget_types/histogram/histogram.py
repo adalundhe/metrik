@@ -15,11 +15,11 @@ from datadog_api_client.v1.model.formula_and_function_metric_data_source import 
 from datadog_api_client.v1.model.widget_time import WidgetTime
 from datadog_api_client.v1.model.widget_style import WidgetStyle
 from datadog_api_client.v1.model.widget_text_align import WidgetTextAlign
-from metrik.dashboards.datadog.models import (
+from metrikflow.dashboards.datadog.models import (
     WidgetOptions,
     WidgetType
 )
-from metrik.dashboards.datadog.widgets.widget_types.base.base_widget_factory import BaseWidgetFactory
+from metrikflow.dashboards.datadog.widgets.widget_types.base.base_widget_factory import BaseWidgetFactory
 
 
 class HistogramFactory(BaseWidgetFactory[DistributionWidgetDefinition]):

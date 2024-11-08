@@ -9,7 +9,7 @@ from datadog_api_client.v1.model.dashboard import Dashboard
 from datadog_api_client.v1.model.dashboard_summary import DashboardSummary
 from datadog_api_client.v1.model.dashboard_layout_type import DashboardLayoutType
 from datadog_api_client.v1.model.widget import Widget
-from metrik.metrics.types import (
+from metrikflow.metrics.types import (
     Event,
     Interval,
     Rate

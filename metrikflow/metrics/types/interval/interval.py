@@ -1,7 +1,7 @@
 import datetime
 import time
 import uuid
-from metrik.metrics.types.base import (
+from metrikflow.metrics.types.base import (
     Metric,
     MetricTypes,
     UnitType

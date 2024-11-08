@@ -18,11 +18,11 @@ from datadog_api_client.v1.model.formula_and_function_response_format import (
 from datadog_api_client.v1.model.widget_formula_style import WidgetFormulaStyle
 from datadog_api_client.v1.model.widget_time import WidgetTime
 from datadog_api_client.v1.model.widget_formula import WidgetFormula
-from metrik.dashboards.datadog.models import (
+from metrikflow.dashboards.datadog.models import (
     WidgetOptions,
     WidgetType
 )
-from metrik.dashboards.datadog.widgets.widget_types.base.base_widget_factory import BaseWidgetFactory
+from metrikflow.dashboards.datadog.widgets.widget_types.base.base_widget_factory import BaseWidgetFactory
 
 
 class TimeseriesFactory(BaseWidgetFactory[TimeseriesWidgetDefinition]):

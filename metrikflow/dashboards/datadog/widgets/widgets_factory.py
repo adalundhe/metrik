@@ -3,11 +3,11 @@ from datadog_api_client.v1.model.formula_and_function_metric_query_definition im
     FormulaAndFunctionMetricQueryDefinition,
 )
 from datadog_api_client.v1.model.widget import Widget
-from metrik.dashboards.datadog.layouts import (
+from metrikflow.dashboards.datadog.layouts import (
     Layout,
     SizeTypeMap
 )
-from metrik.dashboards.datadog.models import (
+from metrikflow.dashboards.datadog.models import (
     WidgetMetric,
     Query,
     WidgetAggregationTypeMap,

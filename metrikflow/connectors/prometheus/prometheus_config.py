@@ -1,7 +1,7 @@
 from typing import Any, Dict
 from pydantic import BaseModel
 from typing import Optional
-from metrik.connectors.common.types import ConnectorTypes
+from metrikflow.connectors.common.types import ConnectorTypes
 
 
 class PrometheusConfig(BaseModel):

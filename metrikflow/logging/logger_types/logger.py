@@ -1,7 +1,7 @@
 from typing import Dict
 from typing import Generic, TypeVar
-from metrik.logging.config import LoggingConfig
-from metrik.logging.spinner.progress_text import ProgressText
+from metrikflow.logging.config import LoggingConfig
+from metrikflow.logging.spinner.progress_text import ProgressText
 from .async_filesystem_logger import AsyncFilesystemLogger
 from .async_logger import AsyncLogger
 from .async_spinner import AsyncSpinner

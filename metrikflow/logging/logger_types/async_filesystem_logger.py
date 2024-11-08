@@ -5,7 +5,7 @@ from typing import Dict
 from pathlib import Path
 from aiologger.levels import LogLevel
 from aiologger.formatters.base import Formatter
-from metrik.tools.filesystem import open
+from metrikflow.tools.filesystem import open
 from .handlers.async_file_handler import AsyncTimedRotatingFileHandler, RolloverInterval
 from .logger_types import LoggerTypes
 from .async_logger import AsyncLogger

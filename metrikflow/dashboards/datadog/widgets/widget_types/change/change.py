@@ -21,11 +21,11 @@ from datadog_api_client.v1.model.widget_change_type import WidgetChangeType
 from datadog_api_client.v1.model.widget_compare_to import WidgetCompareTo
 from datadog_api_client.v1.model.widget_text_align import WidgetTextAlign
 from datadog_api_client.v1.model.widget_time import WidgetTime
-from metrik.dashboards.datadog.models import (
+from metrikflow.dashboards.datadog.models import (
     WidgetOptions,
     WidgetType
 )
-from metrik.dashboards.datadog.widgets.widget_types.base.base_widget_factory import BaseWidgetFactory
+from metrikflow.dashboards.datadog.widgets.widget_types.base.base_widget_factory import BaseWidgetFactory
 from typing import List
 
 

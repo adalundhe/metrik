@@ -1,6 +1,6 @@
 from typing import List
 from pydantic import BaseModel
-from metrik.connectors.common.types import ConnectorTypes
+from metrikflow.connectors.common.types import ConnectorTypes
 
 
 class _CloudwatchTarget(BaseModel):

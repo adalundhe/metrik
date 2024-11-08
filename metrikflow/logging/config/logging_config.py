@@ -3,10 +3,10 @@ import datetime
 import signal
 from typing import Any, List, Dict, Coroutine
 from aiologger.levels import LogLevel
-from metrik.logging.logger_types.handlers.async_file_handler import RolloverInterval
+from metrikflow.logging.logger_types.handlers.async_file_handler import RolloverInterval
 from yaspin.spinners import Spinners
-from metrik.logging.logger_types.logger_types import LoggerTypes
-from metrik.logging.spinner import ProgressText
+from metrikflow.logging.logger_types.logger_types import LoggerTypes
+from metrikflow.logging.spinner import ProgressText
 
 
 class LoggingConfig:

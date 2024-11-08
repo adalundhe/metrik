@@ -8,9 +8,9 @@ from typing import (
     Any,
     List
 )
-from metrik.connectors import Connector
-from metrik.logging.table import MetrikTable
-from metrik.metrics import (
+from metrikflow.connectors import Connector
+from metrikflow.logging.table import MetrikTable
+from metrikflow.metrics import (
     MetricStore
 )
 

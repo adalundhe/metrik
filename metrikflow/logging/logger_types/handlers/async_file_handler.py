@@ -13,8 +13,8 @@ from typing import Callable, List, Optional
 from aiologger.handlers.base import Handler
 from aiologger.records import LogRecord
 from aiologger.utils import classproperty, get_running_loop
-from metrik.tools.filesystem import open
-from metrik.tools.filesystem.text import AsyncTextIOWrapper
+from metrikflow.tools.filesystem import open
+from metrikflow.tools.filesystem.text import AsyncTextIOWrapper
 
 
 class AsyncFileHandler(Handler):

@@ -13,7 +13,7 @@ from yaspin.core import Yaspin
 from yaspin.spinners import Spinners
 from aiologger.levels import LogLevel
 from aiologger.formatters.base import Formatter
-from metrik.logging.spinner import ProgressText
+from metrikflow.logging.spinner import ProgressText
 from yaspin.core import to_unicode
 from .async_logger import AsyncLogger
 from .logger_types import LoggerTypes

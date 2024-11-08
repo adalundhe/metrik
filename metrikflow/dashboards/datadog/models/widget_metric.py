@@ -2,7 +2,7 @@ from pydantic import (
     BaseModel,
     StrictStr
 )
-from metrik.metrics.types import (
+from metrikflow.metrics.types import (
     Event,
     Interval,
     Rate

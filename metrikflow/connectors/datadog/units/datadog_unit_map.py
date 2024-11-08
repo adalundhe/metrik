@@ -1,4 +1,4 @@
-from metrik.metrics.types.base.unit_type import UnitType
+from metrikflow.metrics.types.base.unit_type import UnitType
 from typing import Dict, Literal
 
 class DatadogUnitMap:

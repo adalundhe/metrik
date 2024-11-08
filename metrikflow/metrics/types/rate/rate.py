@@ -8,7 +8,7 @@ from typing import (
     Any,
     List
 )
-from metrik.metrics.types.base import (
+from metrikflow.metrics.types.base import (
     Metric,
     MetricTypes,
     UnitType

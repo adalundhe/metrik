@@ -10,7 +10,7 @@ from typing import (
 )
 
 from pydantic import StrictFloat, StrictInt, StrictStr
-from metrik.metrics.types.base import (
+from metrikflow.metrics.types.base import (
     Metric,
     MetricTypes,
     UnitType

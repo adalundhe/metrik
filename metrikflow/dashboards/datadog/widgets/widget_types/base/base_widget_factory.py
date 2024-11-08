@@ -1,6 +1,6 @@
 from collections import defaultdict
-from metrik.dashboards.datadog.layouts.size_type import SizeType
-from metrik.dashboards.datadog.models import (
+from metrikflow.dashboards.datadog.layouts.size_type import SizeType
+from metrikflow.dashboards.datadog.models import (
     Query,
     WidgetType
 )
